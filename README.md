@@ -10,4 +10,7 @@ run over multiple sessions. The recommended way to do this is as follows: in the
 image file (e.g. img134.png). Then, change the starting time to this number divided by 10 (e.g. t=13.4) and the starting label to this
 number plus 1 (e.g. label=135). This will continue the program from where it left off without overwriting any old files.
 
+A note on the outputs: colors are normalized to the highest values at a given time slice. So, for example, in the classical case, the
+most compressed spring will have an RGB value of (1,0,0) and all other RGB values will be normalized based on this length.
+
 The .pdf file contained in the repository gives a description of the math used for creating the code.
